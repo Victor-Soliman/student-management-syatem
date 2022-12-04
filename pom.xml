@@ -46,6 +46,23 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- ========== AOP ========== -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.9.9.1</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- the dependency link for aspectj -->
+        <!--https://mvnrepository.com/artifact/org.aspectj/aspectjtools/1.9.9.1 -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+            <version>1.9.9.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
